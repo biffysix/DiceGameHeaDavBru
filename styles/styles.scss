@@ -1,0 +1,141 @@
+// from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+
+$offwhite:  #EEE8D6;
+$darkblue:  #022933;
+$yellow:    #FFBA00;
+$blue:      #0076A3;
+$green:     #548C27;
+$orange:    #F39856;
+$red:       #D14348;
+$purple:    #6D73C2;
+
+$colorMain: $darkblue;
+
+$fontMain: 'Patrick Hand SC', cursive;
+
+
+html {
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;  /* for mobile */
+    max-width: 1024px; /* for pc and tablet */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*flexbox*/
+.parent {
+    background-color: $red;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1{
+    background-color: $red;
+    margin: 5px;
+}
+
+.div2{
+    background-color: $red;
+    margin: 5px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.div3{
+    background-color: $red;
+    margin: 5px;
+    height: 50px;
+}
+
+.div4{
+    background-color: $red;
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+
+.div5{
+    background-color: $red;
+    margin: 5px;
+    width: 100px;
+}
+
+.div6{
+    background-color: $red;
+    margin: 5px;
+    width: 100px;
+    
+}
+
+.parent2 {
+    background-color: $purple;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div21{
+    background-color: $purple;
+    margin: 5px;
+}
+
+.div22{
+    background-color: $purple;
+    margin: 5px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.div23{
+    background-color: $purple;
+    margin: 5px;
+    height: 150px;
+}
+
+.div24{
+    background-color: $purple;
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+
+.div25{
+    background-color: $purple;
+    margin: 5px;
+    width: 100px;
+}
+
+.div26{
+    background-color: $purple;
+    margin: 5px;
+    width: 100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    font-family: $fontMain;
+    color: $blue;
+    background-color: $offwhite;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  /*Height of the footer */
+    background: $purple;
+}

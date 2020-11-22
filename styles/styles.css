@@ -1,1 +1,125 @@
-@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  /* for mobile */
+  max-width: 1024px;
+  /* for pc and tablet */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*flexbox*/
+.parent {
+  background-color: #D14348;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 {
+  background-color: #D14348;
+  margin: 5px;
+}
+
+.div2 {
+  background-color: #D14348;
+  margin: 5px;
+  width: 50px;
+  font-size: 30px;
+}
+
+.div3 {
+  background-color: #D14348;
+  margin: 5px;
+  height: 50px;
+}
+
+.div4 {
+  background-color: #D14348;
+  margin: 5px;
+  width: 50px;
+  height: 150px;
+}
+
+.div5 {
+  background-color: #D14348;
+  margin: 5px;
+  width: 100px;
+}
+
+.div6 {
+  background-color: #D14348;
+  margin: 5px;
+  width: 100px;
+}
+
+.parent2 {
+  background-color: #6D73C2;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div21 {
+  background-color: #6D73C2;
+  margin: 5px;
+}
+
+.div22 {
+  background-color: #6D73C2;
+  margin: 5px;
+  width: 50px;
+  font-size: 30px;
+}
+
+.div23 {
+  background-color: #6D73C2;
+  margin: 5px;
+  height: 150px;
+}
+
+.div24 {
+  background-color: #6D73C2;
+  margin: 5px;
+  width: 50px;
+  height: 150px;
+}
+
+.div25 {
+  background-color: #6D73C2;
+  margin: 5px;
+  width: 100px;
+}
+
+.div26 {
+  background-color: #6D73C2;
+  margin: 5px;
+  width: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: "Patrick Hand SC", cursive;
+  color: #0076A3;
+  background-color: #EEE8D6;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /*Height of the footer */
+  background: #6D73C2;
+}
