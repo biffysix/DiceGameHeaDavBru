@@ -12,14 +12,15 @@
 
 </head>
 <body>
-    <div class="wrapper">
+    <div class="grid-container">
         <header>
-            <h1>Comp 2132 Dice Game</h1>
-            <img src="DiceAllSix.PNG" width="600" height="75px">
+            <h2>Comp 2132 Dice Game</h2>
+            
         </header>
 
-        
+        <main> 
         <div class = "container">
+            <img class="row right" src="DiceAllSix.PNG" width="300" height="40px">
         <div class = "parent" text = "Player 1">
             <!-- below is to create a row elements -->
           <div class="row">
@@ -32,16 +33,16 @@
                       <td>  <div class="div3">Dice #2</div> </td>
                   </tr>
                   <tr>
-                    <td> <div class="div2Display">Dice #1</div> </td>
-                    <td>  <div class="div3Display">Dice #2</div> </td>
+                    <td> <div id="div2Display">Output</div> </td>
+                    <td>  <div id="div3Display">Output</div> </td>
                 </tr>
                   <tr>
                       <td> <div class="div4">Score this round</div> </td>
                       <td> <div class="div5">Total Score</div> </td>
                   </tr>
                   <tr>
-                    <td> <div class="div4Display">Score this round</div> </td>
-                    <td> <div class="div5Display">Total Score</div> </td>
+                    <td> <div id="div4Display">Score Output</div> </td>
+                    <td> <div id="div5Display">Total Output</div> </td>
                 </tr>
               </table>
             
@@ -59,16 +60,16 @@
                     <td> <div class="div23" >Dice #2</div> </td>
                 </tr>
                 <tr>
-                    <td> <div class="div22Display">Dice #1</div> </td>
-                    <td> <div class="div23Display" >Dice #2</div> </td>
+                    <td> <div id="div22Display">Output</div> </td>
+                    <td> <div id="div23Display" >Output</div> </td>
                 </tr>
                 <tr>
                     <td> <div class="div24">Score this round</div> </td>
                     <td> <div class="div25">Total Score</div> </td>
                 </tr>
                 <tr>
-                    <td> <div class="div24Display">Score this round</div> </td>
-                    <td> <div class="div25Display">Total Score</div> </td>
+                    <td> <div id="div24Display">Score Output</div> </td>
+                    <td> <div id="div25Display">Total Output</div> </td>
                 </tr>
               </table>
             
@@ -77,11 +78,9 @@
           </div>          
         </div> 
         </div>
-        <button id="newGamebtn"> New Game</button>
+        <button id="newGamebtn" value="Refreshed page" onclick="location.reload(true);"> New Game</button>
         <button id="rollDicebtn"> Roll Dice</button>
     </div>
-    <main> 
-           
         <p id="output"></p>
         
         Rules:
@@ -96,10 +95,10 @@
         </section>
     </main>  
     
-
     <script src="scripts/jquery-3.4.1.min.js"></script>
     <script src="scripts/hideshow.js"></script>
     <script src="scripts/script.js"></script>
 
+    <footer class="row center">All rights reserved 2020</footer>
 </body>
 </html>
